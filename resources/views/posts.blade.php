@@ -10,7 +10,7 @@
     <h1>Posts</h1>
 
     <article>
-        <h2>My first post</h2>
+        <h2><a href="/posts/my-first-post">My first post</a></h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, quod ut dolorum earum non assumenda quis nobis nam recusandae delectus accusantium iusto nihil hic optio deserunt odio quaerat cupiditate sunt!
         Aut sed optio, ut laboriosam earum ipsa porro expedita aperiam odit sunt voluptas quo neque reiciendis ullam omnis repudiandae eaque et. Fugit, id quam. Aut neque blanditiis mollitia odit eum!
         Quaerat nesciunt odio nihil mollitia voluptates voluptatibus dicta modi! Possimus quidem fuga expedita ducimus, quam tenetur deleniti enim ipsam. Odio culpa ea natus quasi fuga aspernatur aliquam dignissimos enim eum.
@@ -24,7 +24,7 @@
     </article>
 
     <article>
-        <h2>My second post</h2>
+        <h2><a href="/posts/my-second-post">My second post</a></h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, quod ut dolorum earum non assumenda quis nobis nam recusandae delectus accusantium iusto nihil hic optio deserunt odio quaerat cupiditate sunt!
         Aut sed optio, ut laboriosam earum ipsa porro expedita aperiam odit sunt voluptas quo neque reiciendis ullam omnis repudiandae eaque et. Fugit, id quam. Aut neque blanditiis mollitia odit eum!
         Quaerat nesciunt odio nihil mollitia voluptates voluptatibus dicta modi! Possimus quidem fuga expedita ducimus, quam tenetur deleniti enim ipsam. Odio culpa ea natus quasi fuga aspernatur aliquam dignissimos enim eum.
@@ -38,7 +38,7 @@
     </article>
 
     <article>
-        <h2>My third post</h2>
+        <h2><a href="/posts/my-third-post">My third post</a></h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, quod ut dolorum earum non assumenda quis nobis nam recusandae delectus accusantium iusto nihil hic optio deserunt odio quaerat cupiditate sunt!
         Aut sed optio, ut laboriosam earum ipsa porro expedita aperiam odit sunt voluptas quo neque reiciendis ullam omnis repudiandae eaque et. Fugit, id quam. Aut neque blanditiis mollitia odit eum!
         Quaerat nesciunt odio nihil mollitia voluptates voluptatibus dicta modi! Possimus quidem fuga expedita ducimus, quam tenetur deleniti enim ipsam. Odio culpa ea natus quasi fuga aspernatur aliquam dignissimos enim eum.
