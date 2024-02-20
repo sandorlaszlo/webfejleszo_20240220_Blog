@@ -26,17 +26,19 @@ Route::get('/', function () {
 });
 
 Route::get('/posts/{post}', function ($slug) {
-    $file = resource_path() . '/posts/' . $slug . '.html';
-    // $file = __DIR__ . '/../resources/posts/' . $slug . '.html';
+    // $file = resource_path() . '/posts/' . $slug . '.html';
+    // // $file = __DIR__ . '/../resources/posts/' . $slug . '.html';
 
-    if (! file_exists($file))
-    {
-        return redirect('/');
-        abort(404);
-        ddd($file . ' does not exists');
-        dd($file . ' does not exists');
-    }
+    // if (! file_exists($file))
+    // {
+    //     return redirect('/');
+    //     abort(404);
+    //     ddd($file . ' does not exists');
+    //     dd($file . ' does not exists');
+    // }
 
-    $post = file_get_contents($file);
+    // $post = file_get_contents($file);
+
+    $post = Post::find($slug);
     return view('post', ['post' => $post]);
 });

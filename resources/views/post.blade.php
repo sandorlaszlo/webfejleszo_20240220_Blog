@@ -7,6 +7,8 @@
     <title>My Blog</title>
 </head>
 <body>
-    {!! $post !!}
+    <h2>{{ $post->title }}</h2>
+    <p>Published: {{ date("Y.m.d", $post->date) }}</p>
+    {!! $post->body !!}
 </body>
 </html>
