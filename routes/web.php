@@ -13,6 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return ["name" => "Gipsz Jakab"];
+//     return array('One', 'Two', 'Three');
+//     return "alma";
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('posts');
+});
+
+Route::get('/posts/{post}', function ($slug) {
+    $file = resource_path() . '/posts/' . $slug . '.html';
+    // $file = __DIR__ . '/../resources/posts/' . $slug . '.html';
+
+    if (! file_exists($file))
+    {
+        return redirect('/');
+        abort(404);
+        ddd($file . ' does not exists');
+        dd($file . ' does not exists');
+    }
+
+    $post = file_get_contents($file);
+    return view('post', ['post' => $post]);
 });
